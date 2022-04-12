@@ -2,6 +2,7 @@
   background-color: #691b7c;
   width: 70%;
   height: fit-content;
+  border-radius: 5px;
   border: solid 1px black;
   padding: 25px 25px;
   text-align: center;
@@ -43,15 +44,3 @@
   margin-bottom: 7px;
 }
 
-.smallBox{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: #691b7c;
-  width: 70%;
-  height: 200px;
-  border: solid 1px black;
-  margin-top: 20px;
-  text-align: center;
-  padding: 25px 5px;
-}

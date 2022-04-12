@@ -1,17 +1,18 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link rel="stylesheet" type="text/css" href="stylesheet/common.css"/>
-  <link rel="stylesheet" type="text/css" href="stylesheet/catalog.css"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheet/common.css"/>
+  <link rel="stylesheet" type="text/css" href="../stylesheet/catalog.css"/>
   <title>Home</title>
 </head>
 <body>
 
   <header class="site-header">
     <div class="headerBox" id="logo">
-      <h2><a href="../index.html" class="link">Space Mind</a></h2>
+        <h2><a href="../index.html" class="link">Space Mind</a></h2>
     </div>
     <div class="headerBox" id="searchbar">
         <input type="text" placeholder="Essa barra de pesquisa não funciona">
@@ -32,33 +33,17 @@
 </div>
 
 <div class="pageContainer">
-    <div class="catalogBox">
-        <h1>Produtos em destaque</h1>
-        <div class="featuredProducts">
-          <div class="featuredProductsItem"></div>
-          <div class="featuredProductsItem"></div>
-          <div class="featuredProductsItem"></div>
-        </div>
-        <h1>Produtos Limitados</h1>
-        <div class="limitedProducts">
-          <div class="limitedProductsItem"></div>
-          <div class="limitedProductsItem"></div>
-          <div class="limitedProductsItem"></div>
-        </div>
-    </div>
-
-    <div class="smallBox">
-        <h2>Clique no botão abaixo para mais produtos!</h2>
-        <div class="customizeButtonContainer">
-          <a href="#" class="button">Mais Produtos</a>
-        </div>
-    </div>
-
-    <div class="smallBox">
-        <h2>Também personalizo suas roupas!</h2>
-        <div class="customizeButtonContainer">
-          <a href="#" class="button">Saiba Mais</a>
-        </div>
+    <div class="formBox">
+        <form>
+            <h2>Deixe sua mensagem abaixo:</h2>
+            <p>Email:</p>
+            <input type="text" placeholder="exemplo@exemplo.com">
+            <p>Assunto:</p>
+            <input type="text" placeholder="Assunto">
+            <p>Mensagem:</p>
+            <textarea cols="30" rows="10" placeholder="Digite sua mensagem aqui"></textarea>
+            <p><button type="submit">Enviar</button> <a href="../index.html" class="button">Voltar</a></p>
+        </form>
     </div>
 </div>
 <footer>
@@ -75,9 +60,9 @@
   <div class="footerContainer">
     <h4>Institucional</h4>
       <ul class="footerList">
-        <li><a href="/pages/about.html" class="link">Sobre</a></li>
+        <li><a href="about.html" class="link">Sobre</a></li>
         <li><a target="_blank" href="https://github.com/thiagopls1" class="link">Desenvolvedor</a></li>
-        <li><a href="/pages/contact.html" class="link">Contato</a></li>
+        <li><a href="contact.html" class="link">Contato</a></li>
       </ul>
   </div>
 
