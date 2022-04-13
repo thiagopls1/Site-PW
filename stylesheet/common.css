@@ -152,6 +152,7 @@ button{
 
 button:hover{
   background-color: #ffffff33;
+  cursor: pointer;
 }
 
 input, textarea{
