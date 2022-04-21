@@ -27,6 +27,10 @@
   padding: 15px 5px;
 }
 
+.productOptions{
+  text-decoration: underline;
+}
+
 .productInfo{
   display: flex;
   justify-content: space-evenly;
