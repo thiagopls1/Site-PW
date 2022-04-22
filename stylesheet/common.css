@@ -281,3 +281,24 @@ form > p{
 .itemBoxContainer > h3{
   margin-top: 25px;
 }
+
+.productBox{
+  display: flex;
+  background-color: #691b7c;
+  width: 70%;
+  height: fit-content;
+  border-radius: 5px;
+  border: solid 1px black;
+  margin-top: 20px;
+  text-align: left;
+  padding: 40px 25px;
+}
+
+.fullProductOptions{
+  margin-left: 40px;
+}
+
+.fullProductOptions > button{
+  margin-left: 15px;
+  margin-top: 35px;
+}

@@ -32,6 +32,11 @@
   height: 240px;
 }
 
+.productsItem > a > img{
+  width: 12em;
+  height: 240px;
+}
+
 .productInfo{
   display: flex;
   justify-content: space-evenly;
