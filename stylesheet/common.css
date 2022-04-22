@@ -33,23 +33,22 @@ body{
 
 #logoImage{
   margin-right: 25px;
-  border-radius: 100%;
-  width: 155px;
-  height: 155px;
+  width: 13em;
+  height: 200px;
 }
 
 #logo{
-  width: 25%;
+  width: 30%;
 }
 
 #searchbar{
-  width: 50%;
+  width: 45%;
 }
 
 #searchbar > input{
   height: 30px;
   padding: 15px;
-  width: 80%;
+  width: 90%;
   color: #000000;
   border: solid 2px #00000085;
   border-radius: 15px;
