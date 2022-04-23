@@ -302,3 +302,9 @@ form > p{
   margin-left: 15px;
   margin-top: 35px;
 }
+
+#aboutMeImg{
+  width: 300px;
+  border: solid 3px black;
+  border-radius: 7px;
+}
